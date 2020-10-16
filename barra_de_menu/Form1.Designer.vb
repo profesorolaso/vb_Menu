@@ -62,31 +62,31 @@ Partial Class Form1
         '
         Me.mnuColor.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuAuto, Me.mnuRojo, Me.mnuAzul, Me.mnuVerde})
         Me.mnuColor.Name = "mnuColor"
-        Me.mnuColor.Size = New System.Drawing.Size(152, 22)
+        Me.mnuColor.Size = New System.Drawing.Size(103, 22)
         Me.mnuColor.Text = "Color"
         '
         'mnuAuto
         '
         Me.mnuAuto.Name = "mnuAuto"
-        Me.mnuAuto.Size = New System.Drawing.Size(152, 22)
+        Me.mnuAuto.Size = New System.Drawing.Size(137, 22)
         Me.mnuAuto.Text = "Automatico"
         '
         'mnuRojo
         '
         Me.mnuRojo.Name = "mnuRojo"
-        Me.mnuRojo.Size = New System.Drawing.Size(152, 22)
+        Me.mnuRojo.Size = New System.Drawing.Size(137, 22)
         Me.mnuRojo.Text = "Rojo"
         '
         'mnuAzul
         '
         Me.mnuAzul.Name = "mnuAzul"
-        Me.mnuAzul.Size = New System.Drawing.Size(152, 22)
+        Me.mnuAzul.Size = New System.Drawing.Size(137, 22)
         Me.mnuAzul.Text = "Azul"
         '
         'mnuVerde
         '
         Me.mnuVerde.Name = "mnuVerde"
-        Me.mnuVerde.Size = New System.Drawing.Size(152, 22)
+        Me.mnuVerde.Size = New System.Drawing.Size(137, 22)
         Me.mnuVerde.Text = "Verde"
         '
         'emnuBordes
@@ -140,6 +140,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(482, 239)
         Me.Controls.Add(Me.lblPrueba)
         Me.Controls.Add(Me.mnu)
